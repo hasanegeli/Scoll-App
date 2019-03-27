@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    min-height: 4000px;
+}
+
+.scroll-app {
+    width: 100%;
+    position: fixed;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#text {
+    font-weight: normal;
+    color: #bbb;
+}
+
+.scroll-app a {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 20px 30px;
+    color: #fff;
+    font-size: 80px;
+    padding: 20px;
+
+}
+
+.sm-icon-facebook {
+    background-color: #43609C;
+}
+
+.sm-icon-twitter {
+    background-color: #1CC1F7;
+}
+
+.sm-icon-google {
+    background-color: #DD4C3B;
+}
+
+#footer {
+
+    color: #333;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 5%;
+}
